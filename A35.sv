@@ -13,7 +13,7 @@ module queue;
 		end
 
 		$display("arr: %0p",arr);
-
+¬
 		for(i = 0; i < 20; i++) begin
 			q.push_front(arr[i]);
 		end
